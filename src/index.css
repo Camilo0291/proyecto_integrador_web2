@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Andika";
+}
+
+.home h1 {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.home p {
+  margin: 20px 0 10px;
+}
+
+.header-container {
+  width: 100%;
+  padding: 20px 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: #054a61;
+  align-items: center;
+}
+
+.header-container-div {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header-container img {
+  width: auto; /* Deja que la imagen se ajuste automáticamente */
+  max-width: 100px; /* Limita el tamaño máximo de la imagen */
+  height: auto;
+  margin-left: 50px;
+}
+
+.header-container a {
+  color: white;
+  font-size: 1.2em;
+  margin-right: 10px;
+  margin-left: -0px;
+  text-decoration: none;
+}
+
+.footer-container {
+  width: 100%;
+  min-height: 60px;
+  background-color: #054a61;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 19px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+}
+
+.footer-container p {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+  width: 80%;
+}
