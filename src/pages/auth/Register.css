@@ -1,25 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 
 .body1 {
-    background-color: #054a61;
-}
-.registerForm {
-    width: 100%;
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 20px;
+  background-color: #054a61;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  font-family: 'Andika', sans-serif;
 }
 
-.registerForm input {
-    width: 20%;
-    height: 40px;
-    outline: none;
+.img-login1 {
+  width: 130px; /* Tamaño ajustado para un aspecto más equilibrado */
+  height: auto;
 }
 
-.registerForm input[type="button"] {
-    width: 10%;
-    background-color: transparent;
-    border: 1px solid black;
+.wrapper1 {
+  width: 100%;
+  max-width: 400px; /* Ajusta para pantallas más pequeñas */
+  background: rgba(255, 255, 255, 0.95); /* Fondo ligeramente más opaco */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Sombra más elegante */
+  color: #333;
+  border-radius: 12px; /* Bordes más redondeados */
+  padding: 30px;
+  margin: 0 auto;
+  text-align: center;
+  position: relative;
+}
+
+.wrapper1 h2 {
+  color: #054a61;
+  font-size: 28px; /* Tamaño ligeramente mayor para un impacto visual */
+  margin-bottom: 20px;
+}
+
+.input-box1 {
+  position: relative;
+  width: 100%;
+  margin: 15px 0; /* Ajusta el margen para una mejor separación */
+}
+
+.input-box1 input {
+  width: 100%;
+  padding: 12px 20px; /* Añadido más padding para mayor comodidad */
+  background: #fff; /* Fondo blanco para los campos de entrada */
+  border: 2px solid #ccc; /* Borde más pronunciado */
+  border-radius: 8px; /* Bordes más redondeados */
+  outline: none;
+  font-size: 16px;
+  transition: border-color 0.3s, background-color 0.3s; /* Transición suave */
+}
+
+.input-box1 input:focus {
+  border-color: #054a61; /* Color de borde al enfocar */
+  background-color: #f0f8ff; /* Fondo ligeramente azul al enfocar */
+}
+
+.input-box1 input::placeholder {
+  color: #888; /* Color del texto del placeholder */
+}
+
+.btn1 {
+  width: 60%;
+  background: #054a61;
+  color: #ffffff;
+  border: none;
+  border-radius: 8px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s; /* Transición suave y efecto de escalado */
+}
+
+.btn1:hover {
+  background: #043c50; /* Color de fondo más oscuro al pasar el ratón */
+  transform: scale(1.05); /* Efecto de escalado al pasar el ratón */
+}
+
+.link1 {
+  text-decoration: none;
+  color: #054a61;
+  margin-top: 15px;
+
+}
+
+.link1:hover {
+  text-decoration: underline; /* Subrayado al pasar el ratón */
 }
